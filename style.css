@@ -1,0 +1,49 @@
+/* General Spacing Fix */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Adjust spacing for small screens */
+@media (max-width: 576px) {
+    body {
+        padding-top: 60px; /* Adjust for fixed navbar */
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section {
+        margin-top: 30px !important;
+        padding-top: 20px !important;
+    }
+
+    .navbar .offcanvas {
+        width: 80%;
+    }
+
+    .social-links a {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/* Apply a uniform font-family */
+body {
+    font-family: 'Poppins', sans-serif; /* You can change 'Poppins' to any preferred font */
+}
+
+/* Ensure all text elements inherit the font */
+h1, h2, h3, h4, h5, h6, p, a, button, span, li, ul, div {
+    font-family: inherit;
+}
+

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon (SVG "G" Letter) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Ctext x='2' y='12' font-size='12' font-family='Arial' font-weight='bold'%3EG%3C/text%3E%3C/svg%3E">
+    
+    <title>Gajalakshmi</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gajalakshmi Subramani</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                </ul>
+            </div>
+            <div class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#work-experience">Work Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section id="about" class="container mt-5 pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h2>About Me</h2>
+                <p class="text-muted">
+                    I'm <strong>Gajalakshmi Subramani</strong>, an <span class="text-primary">AI & ML enthusiast</span> passionate about solving real-world problems with <span class="text-success">data-driven solutions</span>. 
+                    With expertise in <strong>machine learning, deep learning, and web development</strong>, I optimize technology for impact. 
+                    Always eager to <em>innovate</em> and <em>learn</em>!
+                </p>
+                <div class="social-links mt-3">
+                    <a href="https://www.linkedin.com/in/gajalakshmi-subramani-1b65bb257" class="btn btn-primary me-2" target="_blank">LinkedIn</a>
+                    <a href="https://www.geeksforgeeks.org/user/gajalakshmis8tt3/" class="btn btn-success me-2" target="_blank">GeeksforGeeks</a>
+                    <a href="https://github.com/Gajalakshmisubramani" class="btn btn-dark" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="asset\profile_image.jpg" alt="My Image" class="img-fluid rounded-circle shadow-lg" style="max-width: 300px;">
+            </div>
+        </div>
+    </section>
+
+    <section id="work-experience" class="container mt-5 pt-5">
+        <h2 class="text-center mb-4 fw-bold text-dark">Work Experience</h2>
+    
+        <div class="accordion shadow-lg" id="workExperienceAccordion">
+            <!-- Frontend Developer Intern -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#frontendIntern">
+                        <p><i class="bi bi-code-slash me-2 text-info"></i> Frontend Developer Intern , <span class="text-secondary"> SAPP School App, Maestrominds (Jan 2025)</span></p>
+                    </button>
+                </h2>
+                <div id="frontendIntern" class="accordion-collapse collapse" data-bs-parent="#workExperienceAccordion">
+                    <div class="accordion-body bg-light">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Developed a responsive UI for student results using Flutter, improving user experience and accessibility.</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Optimized application performance by 15% through state management, lazy loading, and version control.</li>
+                            <li><strong>Tech:</strong> Flutter, Flask, REST APIs, GitHub.</li>
+                        </ul>
+                        <a href="https://github.com/KoushikCodesWebpages/SappFrontend" class="btn btn-outline-dark btn-sm" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Machine Learning Intern -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#mlIntern">
+                        <p><i class="bi bi-bar-chart-line me-2 text-warning"></i> Machine Learning Intern ,  <span class="text-secondary"> Prodigy Infotech (Feb 2024)</span></p>
+                    </button>
+                </h2>
+                <div id="mlIntern" class="accordion-collapse collapse" data-bs-parent="#workExperienceAccordion">
+                    <div class="accordion-body bg-light">
+                        <ul class="list-unstyled">
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Designed and implemented SVM and Linear Regression models for home price prediction, improving prediction accuracy by 15%.</li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Led data preprocessing, exploratory data analysis (EDA), and cross-validation efforts, boosting model performance by 18%.</li>
+                            <li><strong>Tech:</strong> Python, Scikit-learn, Pandas, Matplotlib, Seaborn.</li>
+                        </ul>
+                        <a href="https://github.com/Gajalakshmisubramani/PRODIGY_ML_01" class="btn btn-outline-dark btn-sm" target="_blank">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Add Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <section id="education" class="container mt-5 pt-5">
+        <h2 class="text-center mb-4 fw-bold text-dark">Education</h2>
+
+        <div class="row justify-content-center">
+            <!-- Bachelor's Degree -->
+            <div class="col-12 edu-box shadow-sm p-4 rounded mb-4">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-mortarboard-fill text-danger fs-1 me-3"></i>
+                    <div>
+                        <h5 class="fw-bold">B.E in Computer Science (AI & ML)</h5>
+                        <p class="mb-1 text-muted">Sri Sai Ram Engineering College | <span class="text-primary">2022 - Present</span></p>
+                        <span class="badge bg-success fs-6">CGPA: 8.74</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- 12th Grade -->
+            <div class="col-12 edu-box shadow-sm p-4 rounded mb-4">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-book-fill text-info fs-1 me-3"></i>
+                    <div>
+                        <h5 class="fw-bold">12th Grade | State Board of Tamil Nadu</h5>
+                        <p class="mb-1 text-muted">S.S.K.V Matric Hr. Sec. School | <span class="text-primary">2020 - 2022</span></p>
+                        <span class="badge bg-success fs-6">Percentage: 91.6%</span>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- 10th Grade -->
+            <div class="col-12 edu-box shadow-sm p-4 rounded mb-4">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-pencil-fill text-warning fs-1 me-3"></i>
+                    <div>
+                        <h5 class="fw-bold">10th Grade | State Board of Tamil Nadu</h5>
+                        <p class="mb-1 text-muted">S.S.K.V Matric Hr. Sec. School | <span class="text-primary">2019 - 2020</span></p>
+                        <span class="badge bg-success fs-6">Percentage: 77.6%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    <style>
+    /* Education Box Styling */
+    .edu-box {
+    background: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #0d6efd; /* Blue left border */
+    }
+    /* Hover Effect */
+    .edu-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    }
+    </style>
+    <section id="skills" class="container mt-5 pt-5">
+        <h2 class="text-center mb-4 fw-bold text-dark">Skills</h2>
+    
+        <div class="row g-4">
+            <!-- Academic Subjects -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-book-half text-danger fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">Academic Knowledge</h5>
+                    <p class="text-muted">DBMS, DSA, OOP, Computer Networks, Operating System, Arduino</p>
+                </div>
+            </div>
+    
+            <!-- Programming Languages -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-code-slash text-success fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">Programming Languages</h5>
+                    <p class="text-muted">Python, C++</p>
+                </div>
+            </div>
+    
+            <!-- AI/ML -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-robot text-warning fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">AI/ML</h5>
+                    <p class="text-muted">Deep Learning, Computer Vision, NLP</p>
+                </div>
+            </div>
+    
+            <!-- Frontend Development -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-laptop text-info fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">Frontend Development</h5>
+                    <p class="text-muted">HTML5, CSS3, JavaScript, Bootstrap</p>
+                </div>
+            </div>
+    
+            <!-- Databases -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-database text-primary fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">Databases</h5>
+                    <p class="text-muted">SQL</p>
+                </div>
+            </div>
+    
+            <!-- Version Control -->
+            <div class="col-md-4 d-flex">
+                <div class="card skill-card border-0 shadow-lg text-center p-3 h-100 w-100">
+                    <i class="bi bi-git text-secondary fs-1"></i>
+                    <h5 class="mt-3 fw-semibold">Version Control</h5>
+                    <p class="text-muted">Git, GitHub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<style>
+    /*skill */
+    .skill-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill-card:hover {
+        transform: translateY(-5px) scale(1.05);
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+<section id="projects" class="container mt-5 pt-5">
+    <h2 class="text-center mb-4 fw-bold text-black">Projects</h2>
+    <div class="row justify-content-center">
+        
+        <!-- Project 1 -->
+        <div class="col-12 mb-4">
+            <div class="card shadow-sm h-100 border-0 bg-light">
+                <div class="card-body">
+                    <h4 class="card-title text-black">
+                        <i class="fas fa-camera text-danger"></i> Extracting Physical Attributes 
+                        <span class="badge bg-dark">2024 - Current</span>
+                    </h4>
+                    <p class="card-text text-black">Extracts attributes such as age, height, weight, and environment from images using object detection.</p>
+                    <p class="text-black"><strong>Tech:</strong> YOLOv8, Face Detection, Object Detection, Height Estimation Model.</p>
+                    <a href="https://github.com/Gajalakshmisubramani/physical-attribute-estimation" class="btn btn-outline-dark btn-sm" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-12 mb-4">
+            <div class="card shadow-sm h-100 border-0 bg-light">
+                <div class="card-body">
+                    <h4 class="card-title text-black">
+                        <i class="fas fa-comment-slash text-warning"></i> Toxic Comment Detection 
+                        <span class="badge bg-dark">2023 - Current</span>
+                    </h4>
+                    <p class="card-text text-black">Developed a deep learning model using Logistic Regression, LSTM, and BERT, achieving <strong>92% accuracy</strong>.</p>
+                    <p class="text-black"><strong>Tech:</strong> TensorFlow, Python, NLP, Scikit-learn.</p>
+                    <a href="https://github.com/Gajalakshmisubramani/toxic_comment_detection_deeplearning" class="btn btn-outline-dark btn-sm" target="_blank">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mini Projects -->
+        <div class="col-12 mb-4">
+            <div class="card shadow-sm h-100 border-0 bg-light">
+                <div class="card-body">
+                    <h4 class="card-title text-black">
+                        <i class="fas fa-lightbulb text-success"></i> Mini Projects
+                    </h4>
+                    <br>
+                    <ul class="text-black">
+                        <li>
+                            <i class="fas fa-radiation text-purple"></i> 
+                            <strong>Gamma Ray Classification:</strong> Machine Learning 
+                            <a href="https://github.com/Gajalakshmisubramani/toxic_comment_detection_deeplearning" class="btn btn-outline-dark btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                        <br>
+                        <li>
+                            <i class="fas fa-gamepad text-info"></i> 
+                            <strong>Word Guessing Game:</strong> Hangman (Python)
+                            <a href="https://github.com/Gajalakshmisubramani/hangman" class="btn btn-outline-dark btn-sm" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .card {
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .text-black {
+        color: black !important;
+    }
+</style>
+<section id="achievements" class="container mt-5 pt-5">
+    <h2 class="text-center mb-4 fw-bold">Achievements</h2>
+    <div class="row">
+        <!-- Achievement 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-book-open icon purple"></i>
+                <h4>Published Research Paper</h4>
+                <p>Toxic Comment Classification using POS tagging and BERT.</p>
+            </div>
+        </div>
+
+        <!-- Achievement 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-trophy icon gold"></i>
+                <h4>AIOTA Project Expo</h4>
+                <p>Secured 3rd place in AIOTA Project Expo for a toxic comment detection project.</p>
+            </div>
+        </div>
+
+        <!-- Achievement 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-certificate icon blue"></i>
+                <h4>SIH 2023 - Participant</h4>
+                <p>Selected in SIH 2023 for Domestic Wind Turbine.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <!-- Achievement 4 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-laptop-code icon green"></i>
+                <h4>Hackathon Achievements</h4>
+                <p>Participated in Women TANCAM and Hackothsava hackathons, solving real-world problems.</p>
+            </div>
+        </div>
+
+        <!-- Achievement 5 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-hands-helping icon red"></i>
+                <h4>Volunteer Contributions</h4>
+                <p>Actively volunteered as a student branch guide at IEEE EMBS and contributed to UBA for rural development.</p>
+            </div>
+        </div>
+
+        <!-- Achievement 6 -->
+        <div class="col-md-4 mb-4">
+            <div class="card text-center shadow-sm p-4">
+                <i class="fas fa-graduation-cap icon cyan"></i>
+                <h4>NPTEL Certifications</h4>
+                <ul class="list-unstyled">
+                    <li>Deep Learning</li>
+                    <li>Introduction to IIoT</li>
+                    <li>Pattern Recognition</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    #achievements {
+        background: #f8f9fa;
+        padding: 50px 20px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .card {
+        background: #ffffff;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .purple { color: #8E44AD; }
+    .gold { color: #F4D03F; }
+    .blue { color: #2980B9; }
+    .green { color: #2ECC71; }
+    .red { color: #E74C3C; }
+    .cyan { color: #1ABC9C; }
+</style>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>© 2025 Gajalakshmi Subramani | AI & ML Enthusiast</p>
+            <div class="footer-links">
+                <a href="mailto:gajalakshmisubramani13@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="tel:+918778552722"><i class="fas fa-phone"></i> Call</a>
+                <a href="https://www.linkedin.com/in/gajalakshmi-subramani-1b65bb257" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .footer {
+        background: #000; 
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-links a {
+        color: #f4d03f; /* Bright Yellow for contrast */
+        text-decoration: none;
+        margin: 0 10px;
+        transition: color 0.3s ease-in-out;
+    }
+    .footer-links a:hover {
+        color: #e74c3c; /* Hot Pink on hover */
+    }
+    .footer-links i {
+        margin-right: 5px;
+    }
+</style>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
